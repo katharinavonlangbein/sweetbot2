@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 body, html {
 	
 /* together with 100% height on the sections triggering full screen view */
@@ -18,7 +19,7 @@ border: 0;
 	
 background: #f0f0f0;
 	
-font-family: Verdana, Helvetica, Arial, sans-serif;
+font-family: 'Maven Pro', sans-serif;
 	
 color: #313131;
 	
@@ -40,7 +41,7 @@ top: 0px;
 	
 left: 0px;
 	
-background: #4f4a41;
+background: #545454;
 	
 padding: 5px;
 	
@@ -60,13 +61,13 @@ float: right;
 	
 margin-right: 8px;
 	
-font-family: Verdana, Helvetica, Arial, sans-serif;
+font-family: 'Maven Pro', sans-serif;
 	
 font-size: 1.2em;
 	
 font-weight: bold;
 	
-color: #313131;
+color: black;
 	
 text-decoration: none;
 	
@@ -136,40 +137,44 @@ background-color: #C9DB50;
 }
 
 .box {
-  border: 2px solid #C9DB50 ;
-   width: 20%;
+  	background-color: white;
+	border: none ;
+   	width: 20%;
 	display: inline-block;
 	margin-left: 14%;
     
 }
 
 .box1 {
-  border: 2px solid #C9DB50 ;
-   width: 20%;
+  	background-color: white;
+	border: none ;
+   	width: 20%;
 	display: inline-block;
 	margin:0% 4%;
    
 }
 
 .box2 {
-  border: 2px solid #C9DB50 ;
-   width: 20%;
+  	background-color: white;
+	border: none ;
+   	width: 20%;
 	display: inline-block;
 	margin-right: 14%;
+	
     
 }
 
 .overhead {
 	display: inline-block;
-	background-color: red;
+	background-color: #C9DB50;
 	height: 60px;
 	width: 100%;
 	
 }
 
-.overhead h2 {
+.overhead h1 {
 	text-align: center;
-	font-size: large;
+	font-size: 1,5em;
 }
 
 .box p {
@@ -190,4 +195,10 @@ background-color: #C9DB50;
 }
 
 
+.overskrift {
+	font-size: 1em;
+}
 
+.brødtekst {
+	font-size: 0.8em;
+}
